@@ -32,7 +32,7 @@ document.querySelector("#convert").onclick = () => {
 };
 
 fetch("https://api.apilayer.com/fixer/latest?base=USD", {
-  headers: { apikey: "6P443cv40ElMpnFyjauqPh32PoMlDSNh" },
+  headers: { apikey: "zHm8LBaNkYcQ0Sa7bIgadfRVJhkBJIKW" },
 })
   .then((response) => response)
   .then((response) => response.json())
